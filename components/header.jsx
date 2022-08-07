@@ -55,8 +55,9 @@ function Header(){
                     <li className="nav-item px-2">
                         <a className="nav-link" href="#contactformvphp">Contact</a>
                     </li>
+                    
                     <li className="nav-item px-2">
-                        <a className="nav-link" href="/reports">Reports</a>
+                        <a className="nav-link" href="/reports.html">Reports</a>
                     </li>
 
                     <li className="nav-item dropdown px-2">
@@ -91,7 +92,7 @@ function Header(){
             <div className="toggle" onClick={toggle_div}></div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="index.html#aboutvphp">About</a></li>
+                <li><a href="/about.html">About</a></li>
                 <li><a href="index.html#thirdvphp">Initiatives</a></li>
 
                 <li><a href="index.html#sixthvphp">E-Summit</a></li>
@@ -100,8 +101,8 @@ function Header(){
                 <li><a href="https://anchor.fm/entrepreneurship-cell-dtu">Podcast</a></li>
                 <li><a href="index.html#testvphp">Testimonial</a></li>
                 <li><a href="index.html#contactformvphp">Contact</a></li>
+                <li><a href="/reports.html">Reports</a></li>
                 <li><a href="message.html">Message</a></li>
-                <li><a href="reports.html">Reports</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="pastMembers.html">Past Members</a></li>
             </ul>

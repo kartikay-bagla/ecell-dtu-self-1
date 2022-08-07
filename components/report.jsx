@@ -2,11 +2,13 @@ const reportDiv = document.getElementById("report");
 ReactDOM.render(<ReportSection />, reportDiv);
 function ReportSection() {
     const objs = [
-        {src: "https://drive.google.com/file/d/1CRTyTVrshcmWzfLtU59CYmj_57SSgG3/preview", fileName: "File 1"},
-        {src: "https://drive.google.com/file/d/1CRTyTVrshcmWzfLtU59CYmj_57SSgG3/preview", fileName: "File 1"},
-        {src: "https://drive.google.com/file/d/1CRTyTVrshcmWzfLtU59CYmj_57SSgG3/preview", fileName: "File 1"},
-        {src: "https://drive.google.com/file/d/1CRTyTVrshcmWzfLtU59CYmj_57SSgG3/preview", fileName: "File 1"},
-        {src: "https://drive.google.com/file/d/1CRTyTVrshcmWzfLtU59CYmj_57SSgG3/preview", fileName: "File 1"},
+        { src: "https://drive.google.com/file/d/1TColT_DpvarMotxOnnj7zxuPO0cKG_lm/preview", fileName: "Annual Report 2022"},
+        { src: "https://drive.google.com/file/d/1TBKil60hxsKgeQY6LHnhofdFc6AOW48g/preview", fileName: "E-Summit Report 2022"},
+        { src: "https://drive.google.com/file/d/1TJkL24d6L57YuSc8gwuOv9CuVWToHXIU/preview", fileName: "Startup Weekend 2022"},
+        { src: "https://drive.google.com/file/d/1SkzoZ2JmpaewjEhzEEmqjTkHE8SJ2p1Q/preview", fileName: "Student Council"},
+        { src: "https://drive.google.com/file/d/1T-Ssd9RT9pexmY3QD8y0WLwO6yyrN0tJ/preview", fileName: "News Article"},
+        { src: "https://drive.google.com/file/d/1SlBo-Qyj05yxJWyFMsqKo4h_EmwANVsj/preview", fileName: "News Article"},
+        { src: "https://drive.google.com/file/d/1T52PnPAtk5LkA7TPheWoBHgSCNLI-odB/preview", fileName: "News Article"},
     ];
     var i = 0;
 
