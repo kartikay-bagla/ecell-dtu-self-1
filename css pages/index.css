@@ -785,6 +785,12 @@ body {
           background-position: center;
           filter: grayscale(80%);
         }
+        .inibackfive{
+          background-image: url(../image/Abhuday2.jpeg);
+          background-size: cover;
+          background-position: center;
+          filter: grayscale(80%);
+        }
 }
 
 @media(max-width: 805px)
